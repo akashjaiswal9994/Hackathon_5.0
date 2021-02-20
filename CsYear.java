@@ -6,18 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import java.time.Year;
-
-public class Bhidholi extends AppCompatActivity {
+public class CsYear extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bhidholi);
+        setContentView(R.layout.activity_cs_year);
     }
-    public void socsclick(View view){
-        Intent so=new Intent(this, CsYear.class);
-        startActivity(so);
+    public void firstcs(View view){
+        Intent fi =new Intent(this,OneTwoSem.class);
+        startActivity(fi);
     }
-
 }
